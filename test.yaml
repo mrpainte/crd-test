@@ -1,0 +1,11 @@
+apiVersion: example.com/v1
+kind: TestConfigMap
+metadata:
+  name: test-config-map
+spec:
+  data: 
+    ssh_known_hosts: |-
+      bitbucket.org ssh-rsa
+      test stuff for an array test
+    key1: value1
+    key2: value2
